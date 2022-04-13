@@ -1,12 +1,20 @@
 Package: RMetSeq
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Restriction Analysis of DNA Methylation
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Authors@R: 
+    person("Aleksei", "Zarubin", , "a.a.zarubin@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-6568-6339"))
+Description: RMetSeq package for processing targeted MRE-seq
+    The evaluation is based on a comparison of the number of cut and uncut reads in the sites of methyl sensitive restrictases.
+License: use_gpl3_license()
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.1.2
+Imports:
+Biostrings,
+GenomicRanges,
+bamsignals
+
+
+Suggests:
+parallel
