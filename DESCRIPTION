@@ -10,11 +10,4 @@ Description: RMetSeq package for processing targeted MRE-seq
 License: use_gpl3_license()
 Encoding: UTF-8
 LazyData: true
-Imports:
-Biostrings,
-GenomicRanges,
-bamsignals
-
-
-Suggests:
-parallel
+Imports: Biostrings, GenomicRanges, bamsignals, parallel
