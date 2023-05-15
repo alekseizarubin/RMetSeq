@@ -1,6 +1,6 @@
-# RMetSeq
+# RMetSeq package for processing targeted MRE-seq
 
-RMetSeq package for processing targeted MRE-seq The evaluation is based on a comparison of the number of cut and uncut reads in the sites of methyl sensitive restrictases.
+The evaluation is based on a comparison of the number of cut and uncut reads in the sites of methyl sensitive restrictases.
 
 ## Installation
 
